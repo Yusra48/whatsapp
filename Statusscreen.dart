@@ -52,10 +52,12 @@ class StatusScreen extends StatelessWidget {
                     ),
                   ),
                   const Spacer(),
-                  Container(
-                    child: const Icon(
+                   const Padding(
+                    padding: EdgeInsets.only(right: 6, top: 5),
+                    child: Icon(
                       Icons.more_vert,
                       color: Color(0xFF128c7e),
+                    ),
                     ),
                   ),
                 ],
